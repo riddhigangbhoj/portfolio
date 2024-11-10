@@ -73,8 +73,7 @@ export default function Home() {
           </h3>
           <div className="space-y-6 text-gray-600 dark:text-gray-300">
             <p className="text-lg leading-relaxed">
-            My name is Riddhi Gangbhoj, and I am a skilled full-stack developer with proficiency in React, Node/Next.js, TSX/JSX, SQL, PostgreSQL, Git/GA, and Oracle. I have 11 months of experience working at Accenture on the Oracle Integration Cloud. I recently built a Sudoku game from scratch and a portfolio website both using React and Next.js and deployed them using GitHub actions.
-
+              My name is Riddhi Gangbhoj, and I'm a skilled full-stack developer with proficiency in React, Node/Next.js, TSX/JSX, SQL, PostgreSQL, Git/GA, and Oracle. I've had 11 months of experience working at Accenture on the Oracle Integration Cloud. I recently built a Sudoku game from scratch and a portfolio website both using React and Next.js and deployed them using GitHub actions.
             </p>
             
             <div className="grid md:grid-cols-2 gap-8 mt-8">
