@@ -3,14 +3,22 @@
 @tailwind utilities;
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --white: #FFFFFF;
+  --light-gray: #F8F9FA;
+  --gray: #6B7280;
+  --dark-gray: #374151;
+  --black: #000000;
+  --blue-gray: #64748B;
+  --soft-pink: #F2E6F0;
+  --muted-pink: #D1789D;
+  --background: var(--white);
+  --foreground: var(--black);
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+    --background: var(--black);
+    --foreground: var(--white);
   }
 }
 
@@ -67,4 +75,131 @@ body {
 .animate-onScroll.visible {
   opacity: 1;
   transform: translateY(0);
+}
+
+/* Dynamic flowing layout styles */
+.flowing-layout {
+  position: relative;
+  overflow: hidden;
+}
+
+.flowing-layout .step-card {
+  transform: translateY(20px);
+  opacity: 0;
+  animation: floatUp 0.8s ease forwards;
+}
+
+.flowing-layout .step-card:nth-child(1) { animation-delay: 0.2s; }
+.flowing-layout .step-card:nth-child(2) { animation-delay: 0.4s; }
+.flowing-layout .step-card:nth-child(3) { animation-delay: 0.6s; }
+.flowing-layout .step-card:nth-child(4) { animation-delay: 0.8s; }
+.flowing-layout .step-card:nth-child(5) { animation-delay: 1.0s; }
+.flowing-layout .step-card:nth-child(6) { animation-delay: 1.2s; }
+
+@keyframes floatUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Visual flow connectors */
+.flow-connector {
+  position: absolute;
+  width: 2px;
+  background: linear-gradient(to bottom, transparent, rgba(209, 120, 157, 0.3), transparent);
+  z-index: 5;
+}
+
+/* Enhanced step number styling */
+.step-number {
+  background: linear-gradient(135deg, #D1789D, #F2E6F0);
+  box-shadow: 0 4px 12px rgba(209, 120, 157, 0.3);
+  transition: all 0.3s ease;
+}
+
+.step-card:hover .step-number {
+  transform: scale(1.1);
+  box-shadow: 0 6px 20px rgba(209, 120, 157, 0.4);
+}
+
+/* Enhanced flowing layout for absolute positioning */
+.flowing-layout .step-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.flowing-layout .step-card:hover {
+  transform: translateY(-2px);
+}
+
+/* Responsive flowing layout */
+@media (max-width: 768px) {
+  .flowing-layout {
+    min-height: 800px !important;
+    padding: 20px;
+  }
+  
+  /* Stack cards vertically on mobile */
+  .flowing-layout .step-card.absolute {
+    position: static !important;
+    margin-bottom: 1rem;
+    width: 100% !important;
+  }
+  
+  .flowing-layout .step-card .w-72,
+  .flowing-layout .step-card .w-64,
+  .flowing-layout .step-card .w-80 {
+    width: 100% !important;
+    max-width: none !important;
+  }
+  
+  .flowing-layout .absolute.inset-0 {
+    position: static !important;
+    margin-bottom: 2rem;
+  }
+  
+  .flowing-layout .absolute.inset-0 img {
+    max-width: 250px !important;
+    opacity: 0.4 !important;
+    margin: 0 auto;
+    display: block;
+  }
+}
+
+@media (max-width: 1024px) and (min-width: 769px) {
+  .flowing-layout .step-card .w-80 {
+    width: 18rem;
+  }
+  
+  .flowing-layout .step-card .w-72 {
+    width: 16rem;
+  }
+  
+  .flowing-layout .step-card .w-64 {
+    width: 14rem;
+  }
+  
+  /* Adjust positioning for medium screens */
+  .flowing-layout .step-card.absolute.right-4 {
+    right: 2px;
+  }
+  
+  .flowing-layout .step-card.absolute.left-4 {
+    left: 2px;
+  }
+  
+  .flowing-layout .step-card.absolute.right-20 {
+    right: 10px;
+  }
+}
+
+/* Large screens optimization */
+@media (min-width: 1200px) {
+  .flowing-layout {
+    min-height: 900px;
+  }
+  
+  .flowing-layout .absolute.inset-0 img {
+    max-width: 600px;
+  }
 }
