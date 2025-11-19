@@ -15,13 +15,6 @@
   --foreground: var(--black);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: var(--black);
-    --foreground: var(--white);
-  }
-}
-
 body {
   color: var(--foreground);
   background: var(--background);
