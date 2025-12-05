@@ -46,13 +46,10 @@ export default function Home() {
                   <span className="px-3 py-1 bg-soft-pink/20 text-muted-pink rounded-full text-xs font-medium border border-soft-pink/40">Python</span>
                   <span className="px-3 py-1 bg-soft-pink/20 text-muted-pink rounded-full text-xs font-medium border border-soft-pink/40">Git</span>
                 </div>
-                <div className="-mx-6">
-                  <div className="border-t border-dotted border-gray-300"></div>
-                  <div className="flex">
-                    <a href="/gsoc-project" className="flex-1 text-center text-muted-pink hover:bg-soft-pink/20 py-2 text-sm font-medium transition-all">View Project</a>
-                    <div className="border-l border-dotted border-gray-300"></div>
-                    <a href="https://github.com/tardis-sn/tardisbase/pull/21" target="_blank" rel="noopener noreferrer" className="flex-1 text-center text-muted-pink hover:bg-soft-pink/20 py-2 text-sm font-medium transition-all">GitHub</a>
-                  </div>
+                <div className="-mx-6 border border-dashed border-gray-300 flex">
+                  <a href="/gsoc-project" className="flex-1 text-center text-muted-pink hover:bg-soft-pink/20 py-3 text-sm font-medium transition-all">View Project</a>
+                  <div className="border-l border-dashed border-gray-300"></div>
+                  <a href="https://github.com/tardis-sn/tardisbase/pull/21" target="_blank" rel="noopener noreferrer" className="flex-1 text-center text-muted-pink hover:bg-soft-pink/20 py-3 text-sm font-medium transition-all">GitHub</a>
                 </div>
               </div>
 
@@ -70,13 +67,10 @@ export default function Home() {
                   <span className="px-3 py-1 bg-soft-pink/20 text-muted-pink rounded-full text-xs font-medium border border-soft-pink/40">WebSocket</span>
                   <span className="px-3 py-1 bg-soft-pink/20 text-muted-pink rounded-full text-xs font-medium border border-soft-pink/40">Python</span>
                 </div>
-                <div className="-mx-6">
-                  <div className="border-t border-dotted border-gray-300"></div>
-                  <div className="flex">
-                    <a href="https://pairprogramming.riddhigangbhoj.com" target="_blank" rel="noopener noreferrer" className="flex-1 text-center text-muted-pink hover:bg-soft-pink/20 py-2 text-sm font-medium transition-all">View Project</a>
-                    <div className="border-l border-dotted border-gray-300"></div>
-                    <a href="https://github.com/riddhigangbhoj/PairProgramming" target="_blank" rel="noopener noreferrer" className="flex-1 text-center text-muted-pink hover:bg-soft-pink/20 py-2 text-sm font-medium transition-all">GitHub</a>
-                  </div>
+                <div className="-mx-6 border border-dashed border-gray-300 flex">
+                  <a href="https://pairprogramming.riddhigangbhoj.com" target="_blank" rel="noopener noreferrer" className="flex-1 text-center text-muted-pink hover:bg-soft-pink/20 py-3 text-sm font-medium transition-all">View Project</a>
+                  <div className="border-l border-dashed border-gray-300"></div>
+                  <a href="https://github.com/riddhigangbhoj/PairProgramming" target="_blank" rel="noopener noreferrer" className="flex-1 text-center text-muted-pink hover:bg-soft-pink/20 py-3 text-sm font-medium transition-all">GitHub</a>
                 </div>
               </div>
 
@@ -92,13 +86,10 @@ export default function Home() {
                   <span className="px-3 py-1 bg-soft-pink/20 text-muted-pink rounded-full text-xs font-medium border border-soft-pink/40">Technology 3</span>
                   <span className="px-3 py-1 bg-soft-pink/20 text-muted-pink rounded-full text-xs font-medium border border-soft-pink/40">Technology 4</span>
                 </div>
-                <div className="-mx-6">
-                  <div className="border-t border-dotted border-gray-300"></div>
-                  <div className="flex">
-                    <a href="#" className="flex-1 text-center text-muted-pink hover:bg-soft-pink/20 py-2 text-sm font-medium transition-all">View Project</a>
-                    <div className="border-l border-dotted border-gray-300"></div>
-                    <a href="https://github.com/yourusername/project3" target="_blank" rel="noopener noreferrer" className="flex-1 text-center text-muted-pink hover:bg-soft-pink/20 py-2 text-sm font-medium transition-all">GitHub</a>
-                  </div>
+                <div className="-mx-6 border border-dashed border-gray-300 flex">
+                  <a href="#" className="flex-1 text-center text-muted-pink hover:bg-soft-pink/20 py-3 text-sm font-medium transition-all">View Project</a>
+                  <div className="border-l border-dashed border-gray-300"></div>
+                  <a href="https://github.com/yourusername/project3" target="_blank" rel="noopener noreferrer" className="flex-1 text-center text-muted-pink hover:bg-soft-pink/20 py-3 text-sm font-medium transition-all">GitHub</a>
                 </div>
               </div>
             </div>
