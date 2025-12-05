@@ -41,12 +41,12 @@ export default function Home() {
                 <p className="text-gray mb-4 text-sm">
                   Built an automated regression data comparison system for TARDIS that fetches commits, creates isolated conda environments, runs pytest suites, and generates visual comparison matrices to track how HDF files change across commits.
                 </p>
-                <div className="flex flex-wrap gap-2 mb-4">
+                <div className="flex flex-wrap gap-2 mb-6 min-h-[2rem]">
                   <span className="px-3 py-1 bg-soft-pink/20 text-muted-pink rounded-full text-xs font-medium border border-soft-pink/40">Open Source</span>
                   <span className="px-3 py-1 bg-soft-pink/20 text-muted-pink rounded-full text-xs font-medium border border-soft-pink/40">Python</span>
                   <span className="px-3 py-1 bg-soft-pink/20 text-muted-pink rounded-full text-xs font-medium border border-soft-pink/40">Git</span>
                 </div>
-                <div className="flex items-center gap-3 text-sm">
+                <div className="flex items-center gap-3 text-sm mt-auto">
                   <a href="/gsoc-project" className="text-muted-pink hover:text-muted-pink/80 font-medium transition-colors">View Project</a>
                   <span className="text-gray-400">|</span>
                   <a href="https://github.com/tardis-sn/tardisbase/pull/21" target="_blank" rel="noopener noreferrer" className="text-muted-pink hover:text-muted-pink/80 font-medium transition-colors">GitHub</a>
@@ -59,7 +59,7 @@ export default function Home() {
                 <p className="text-gray mb-4 text-sm">
                   A real-time pair-programming web application using FastAPI with WebSocket synchronization for collaborative code editing, where multiple users can see changes instantly. The application features a modular architecture with separate backend and frontend files.
                 </p>
-                <div className="flex flex-wrap gap-2 mb-4">
+                <div className="flex flex-wrap gap-2 mb-6 min-h-[2rem]">
                   <span className="px-3 py-1 bg-soft-pink/20 text-muted-pink rounded-full text-xs font-medium border border-soft-pink/40">HTML</span>
                   <span className="px-3 py-1 bg-soft-pink/20 text-muted-pink rounded-full text-xs font-medium border border-soft-pink/40">CSS</span>
                   <span className="px-3 py-1 bg-soft-pink/20 text-muted-pink rounded-full text-xs font-medium border border-soft-pink/40">JavaScript</span>
@@ -67,7 +67,7 @@ export default function Home() {
                   <span className="px-3 py-1 bg-soft-pink/20 text-muted-pink rounded-full text-xs font-medium border border-soft-pink/40">WebSocket</span>
                   <span className="px-3 py-1 bg-soft-pink/20 text-muted-pink rounded-full text-xs font-medium border border-soft-pink/40">Python</span>
                 </div>
-                <div className="flex items-center gap-3 text-sm">
+                <div className="flex items-center gap-3 text-sm mt-auto">
                   <a href="https://pairprogramming.riddhigangbhoj.com" target="_blank" rel="noopener noreferrer" className="text-muted-pink hover:text-muted-pink/80 font-medium transition-colors">View Project</a>
                   <span className="text-gray-400">|</span>
                   <a href="https://github.com/riddhigangbhoj/PairProgramming" target="_blank" rel="noopener noreferrer" className="text-muted-pink hover:text-muted-pink/80 font-medium transition-colors">GitHub</a>
@@ -80,13 +80,13 @@ export default function Home() {
                 <p className="text-gray mb-4 text-sm">
                   Description of your third project goes here. Add details about what you built, technologies used, and impact.
                 </p>
-                <div className="flex flex-wrap gap-2 mb-4">
+                <div className="flex flex-wrap gap-2 mb-6 min-h-[2rem]">
                   <span className="px-3 py-1 bg-soft-pink/20 text-muted-pink rounded-full text-xs font-medium border border-soft-pink/40">Technology 1</span>
                   <span className="px-3 py-1 bg-soft-pink/20 text-muted-pink rounded-full text-xs font-medium border border-soft-pink/40">Technology 2</span>
                   <span className="px-3 py-1 bg-soft-pink/20 text-muted-pink rounded-full text-xs font-medium border border-soft-pink/40">Technology 3</span>
                   <span className="px-3 py-1 bg-soft-pink/20 text-muted-pink rounded-full text-xs font-medium border border-soft-pink/40">Technology 4</span>
                 </div>
-                <div className="flex items-center gap-3 text-sm">
+                <div className="flex items-center gap-3 text-sm mt-auto">
                   <a href="#" className="text-muted-pink hover:text-muted-pink/80 font-medium transition-colors">View Project</a>
                   <span className="text-gray-400">|</span>
                   <a href="https://github.com/yourusername/project3" target="_blank" rel="noopener noreferrer" className="text-muted-pink hover:text-muted-pink/80 font-medium transition-colors">GitHub</a>
