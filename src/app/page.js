@@ -37,10 +37,9 @@ export default function Home() {
             <div className="md:w-1/2 space-y-6">
               {/* Project 1 */}
               <div className="border border-light-gray rounded-lg p-6 hover:shadow-lg hover:shadow-soft-pink/10 transition-all duration-300 bg-light-gray/50 hover:border-soft-pink/30">
-                <h4 className="text-lg font-semibold mb-2 text-black">GSoC Project</h4>
+                <h4 className="text-lg font-semibold mb-2 text-black">Google Summer of Code Project</h4>
                 <p className="text-gray mb-4 text-sm">
-                  Google Summer of Code project focusing on open source development.
-                  Contributed to improving software tools and collaborated with mentors from the open source community.
+                  Built an automated regression data comparison system for TARDIS that fetches commits, creates isolated conda environments, runs pytest suites, and generates visual comparison matrices to track how HDF files change across commits.
                 </p>
                 <div className="flex flex-wrap gap-2 mb-4">
                   <span className="px-3 py-1 bg-soft-pink/20 text-muted-pink rounded-full text-xs font-medium border border-soft-pink/40">Open Source</span>
