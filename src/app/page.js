@@ -57,7 +57,7 @@ export default function Home() {
               alt="Profile picture"
               width={400}
               height={400}
-              className="rounded-lg shadow-lg hover:scale-105 transition-transform duration-300"
+              className="shadow-lg hover:scale-105 transition-transform duration-300"
               priority
             />
           </div>
