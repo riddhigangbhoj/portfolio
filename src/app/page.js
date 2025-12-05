@@ -46,8 +46,9 @@ export default function Home() {
                   <span className="px-3 py-1 bg-soft-pink/20 text-muted-pink rounded-full text-xs font-medium border border-soft-pink/40">Python</span>
                   <span className="px-3 py-1 bg-soft-pink/20 text-muted-pink rounded-full text-xs font-medium border border-soft-pink/40">Git</span>
                 </div>
-                <div className="flex flex-col gap-2">
+                <div className="flex items-center gap-2">
                   <a href="/gsoc-project" className="text-muted-pink hover:text-muted-pink/80 hover:underline text-sm font-medium transition-colors">View Project →</a>
+                  <div className="flex-1 border-b border-dotted border-gray-300"></div>
                   <a href="https://github.com/tardis-sn/tardisbase/pull/21" target="_blank" rel="noopener noreferrer" className="text-muted-pink hover:text-muted-pink/80 hover:underline text-sm font-medium transition-colors">GitHub →</a>
                 </div>
               </div>
@@ -66,8 +67,9 @@ export default function Home() {
                   <span className="px-3 py-1 bg-soft-pink/20 text-muted-pink rounded-full text-xs font-medium border border-soft-pink/40">WebSocket</span>
                   <span className="px-3 py-1 bg-soft-pink/20 text-muted-pink rounded-full text-xs font-medium border border-soft-pink/40">Python</span>
                 </div>
-                <div className="flex flex-col gap-2">
+                <div className="flex items-center gap-2">
                   <a href="https://pairprogramming.riddhigangbhoj.com" target="_blank" rel="noopener noreferrer" className="text-muted-pink hover:text-muted-pink/80 hover:underline text-sm font-medium transition-colors">View Project →</a>
+                  <div className="flex-1 border-b border-dotted border-gray-300"></div>
                   <a href="https://github.com/riddhigangbhoj/PairProgramming" target="_blank" rel="noopener noreferrer" className="text-muted-pink hover:text-muted-pink/80 hover:underline text-sm font-medium transition-colors">GitHub →</a>
                 </div>
               </div>
@@ -84,8 +86,9 @@ export default function Home() {
                   <span className="px-3 py-1 bg-soft-pink/20 text-muted-pink rounded-full text-xs font-medium border border-soft-pink/40">Technology 3</span>
                   <span className="px-3 py-1 bg-soft-pink/20 text-muted-pink rounded-full text-xs font-medium border border-soft-pink/40">Technology 4</span>
                 </div>
-                <div className="flex flex-col gap-2">
+                <div className="flex items-center gap-2">
                   <a href="#" className="text-muted-pink hover:text-muted-pink/80 hover:underline text-sm font-medium transition-colors">View Project →</a>
+                  <div className="flex-1 border-b border-dotted border-gray-300"></div>
                   <a href="https://github.com/yourusername/project3" target="_blank" rel="noopener noreferrer" className="text-muted-pink hover:text-muted-pink/80 hover:underline text-sm font-medium transition-colors">GitHub →</a>
                 </div>
               </div>
