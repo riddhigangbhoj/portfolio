@@ -55,9 +55,9 @@ export default function Home() {
             <Image
               src="/riddhiphoto.jpg"
               alt="Profile picture"
-              width={300}
-              height={300}
-              className="rounded-full shadow-lg hover:scale-105 transition-transform duration-300"
+              width={400}
+              height={400}
+              className="rounded-lg shadow-lg hover:scale-105 transition-transform duration-300"
               priority
             />
           </div>
