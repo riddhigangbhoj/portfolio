@@ -38,9 +38,9 @@ export default function Home() {
               {/* Project 1 */}
               <div className="border border-light-gray rounded-lg p-6 hover:shadow-lg hover:shadow-soft-pink/10 transition-all duration-300 bg-light-gray/50 hover:border-soft-pink/30">
                 <div className="flex items-center gap-3 text-sm mb-4">
-                  <a href="/gsoc-project" className="text-gray-500 hover:text-gray-700 font-medium transition-colors">View Project</a>
-                  <span className="text-gray-400">|</span>
-                  <a href="https://github.com/tardis-sn/tardisbase/pull/21" target="_blank" rel="noopener noreferrer" className="text-gray-500 hover:text-gray-700 font-medium transition-colors">GitHub</a>
+                  <a href="/gsoc-project" className="text-gray-400 hover:text-gray-600 font-medium transition-colors">View Project</a>
+                  <span className="text-gray-300">|</span>
+                  <a href="https://github.com/tardis-sn/tardisbase/pull/21" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-gray-600 font-medium transition-colors">GitHub</a>
                 </div>
                 <h4 className="text-lg font-semibold mb-2 text-black">Google Summer of Code Project</h4>
                 <p className="text-gray mb-4 text-sm">
@@ -56,9 +56,9 @@ export default function Home() {
               {/* Project 2 */}
               <div className="border border-light-gray rounded-lg p-6 hover:shadow-lg hover:shadow-soft-pink/10 transition-all duration-300 bg-light-gray/50 hover:border-soft-pink/30">
                 <div className="flex items-center gap-3 text-sm mb-4">
-                  <a href="https://pairprogramming.riddhigangbhoj.com" target="_blank" rel="noopener noreferrer" className="text-gray-500 hover:text-gray-700 font-medium transition-colors">View Project</a>
-                  <span className="text-gray-400">|</span>
-                  <a href="https://github.com/riddhigangbhoj/PairProgramming" target="_blank" rel="noopener noreferrer" className="text-gray-500 hover:text-gray-700 font-medium transition-colors">GitHub</a>
+                  <a href="https://pairprogramming.riddhigangbhoj.com" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-gray-600 font-medium transition-colors">View Project</a>
+                  <span className="text-gray-300">|</span>
+                  <a href="https://github.com/riddhigangbhoj/PairProgramming" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-gray-600 font-medium transition-colors">GitHub</a>
                 </div>
                 <h4 className="text-lg font-semibold mb-2 text-black">Pair Programming</h4>
                 <p className="text-gray mb-4 text-sm">
@@ -77,9 +77,9 @@ export default function Home() {
               {/* Project 3 */}
               <div className="border border-light-gray rounded-lg p-6 hover:shadow-lg hover:shadow-soft-pink/10 transition-all duration-300 bg-light-gray/50 hover:border-soft-pink/30">
                 <div className="flex items-center gap-3 text-sm mb-4">
-                  <a href="#" className="text-gray-500 hover:text-gray-700 font-medium transition-colors">View Project</a>
-                  <span className="text-gray-400">|</span>
-                  <a href="https://github.com/yourusername/project3" target="_blank" rel="noopener noreferrer" className="text-gray-500 hover:text-gray-700 font-medium transition-colors">GitHub</a>
+                  <a href="#" className="text-gray-400 hover:text-gray-600 font-medium transition-colors">View Project</a>
+                  <span className="text-gray-300">|</span>
+                  <a href="https://github.com/yourusername/project3" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-gray-600 font-medium transition-colors">GitHub</a>
                 </div>
                 <h4 className="text-lg font-semibold mb-2 text-black">Project 3</h4>
                 <p className="text-gray mb-4 text-sm">
