@@ -26,45 +26,9 @@ export default function Home() {
         </div>
       </nav>
 
-      {/* Hero Section */}
-      <main className="pt-20 px-4">
-        <div className="max-w-6xl mx-auto flex flex-col-reverse md:flex-row items-center justify-between py-20 gap-8">
-          <div className="md:w-1/2 space-y-6">
-            <h2 className="text-3xl font-semibold text-black">
-              Hi, I'm Riddhi Gangbhoj
-            </h2>
-            
-            
-            <div className="flex gap-4">
-              <a 
-                href="#projects" 
-                className="bg-muted-pink text-white px-5 py-2 rounded-full hover:bg-muted-pink/90 transition-colors text-sm font-medium"
-              >
-                View Projects
-              </a>
-              <a 
-                href="/resume.pdf" 
-                className="border border-muted-pink text-muted-pink px-5 py-2 rounded-full hover:bg-soft-pink/30 transition-colors text-sm font-medium"
-              >
-                Download Resume
-              </a>
-            </div>
-          </div>
-          
-          <div className="md:w-1/2 flex justify-center">
-            <Image
-              src="/riddhiphoto.jpg"
-              alt="Profile picture"
-              width={400}
-              height={400}
-              className="shadow-lg hover:scale-105 transition-transform duration-300"
-              priority
-            />
-          </div>
-        </div>
-
-        {/* Projects Section */}
-        <section id="projects" className="max-w-6xl mx-auto py-20">
+      {/* Projects Section */}
+      <main className="pt-24 px-4">
+        <section id="projects" className="max-w-6xl mx-auto pt-4 pb-20">
           <h3 className="text-2xl font-semibold mb-8 text-black">
             Projects
           </h3>
