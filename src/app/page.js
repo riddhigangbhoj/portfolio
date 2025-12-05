@@ -32,22 +32,62 @@ export default function Home() {
           <h3 className="text-2xl font-semibold mb-8 text-black">
             Projects
           </h3>
-          <div className="grid md:grid-cols-2 gap-8">
-            {/* Project 1 */}
-            <div className="border border-light-gray rounded-lg p-6 hover:shadow-lg hover:shadow-soft-pink/10 transition-all duration-300 bg-light-gray/50 hover:border-soft-pink/30">
-              <h4 className="text-lg font-semibold mb-2 text-black">GSoC Project</h4>
-              <p className="text-gray mb-4 text-sm">
-                Google Summer of Code project focusing on open source development. 
-                Contributed to improving software tools and collaborated with mentors from the open source community.
-              </p>
-              <div className="flex flex-wrap gap-2 mb-4">
-                <span className="px-3 py-1 bg-soft-pink/20 text-muted-pink rounded-full text-xs font-medium border border-soft-pink/40">Open Source</span>
-                <span className="px-3 py-1 bg-soft-pink/20 text-muted-pink rounded-full text-xs font-medium border border-soft-pink/40">Python</span>
-                <span className="px-3 py-1 bg-soft-pink/20 text-muted-pink rounded-full text-xs font-medium border border-soft-pink/40">Git</span>
+          <div className="flex flex-col md:flex-row gap-8">
+            {/* Projects Column - Left Side */}
+            <div className="md:w-1/2 space-y-6">
+              {/* Project 1 */}
+              <div className="border border-light-gray rounded-lg p-6 hover:shadow-lg hover:shadow-soft-pink/10 transition-all duration-300 bg-light-gray/50 hover:border-soft-pink/30">
+                <h4 className="text-lg font-semibold mb-2 text-black">GSoC Project</h4>
+                <p className="text-gray mb-4 text-sm">
+                  Google Summer of Code project focusing on open source development.
+                  Contributed to improving software tools and collaborated with mentors from the open source community.
+                </p>
+                <div className="flex flex-wrap gap-2 mb-4">
+                  <span className="px-3 py-1 bg-soft-pink/20 text-muted-pink rounded-full text-xs font-medium border border-soft-pink/40">Open Source</span>
+                  <span className="px-3 py-1 bg-soft-pink/20 text-muted-pink rounded-full text-xs font-medium border border-soft-pink/40">Python</span>
+                  <span className="px-3 py-1 bg-soft-pink/20 text-muted-pink rounded-full text-xs font-medium border border-soft-pink/40">Git</span>
+                </div>
+                <a href="/gsoc-project" className="text-muted-pink hover:text-muted-pink/80 hover:underline text-sm font-medium transition-colors">View Project →</a>
               </div>
-              <a href="/gsoc-project" className="text-muted-pink hover:text-muted-pink/80 hover:underline text-sm font-medium transition-colors">View Project →</a>
+
+              {/* Project 2 */}
+              <div className="border border-light-gray rounded-lg p-6 hover:shadow-lg hover:shadow-soft-pink/10 transition-all duration-300 bg-light-gray/50 hover:border-soft-pink/30">
+                <h4 className="text-lg font-semibold mb-2 text-black">Project 2</h4>
+                <p className="text-gray mb-4 text-sm">
+                  Description of your second project goes here. Add details about what you built, technologies used, and impact.
+                </p>
+                <div className="flex flex-wrap gap-2 mb-4">
+                  <span className="px-3 py-1 bg-soft-pink/20 text-muted-pink rounded-full text-xs font-medium border border-soft-pink/40">Technology 1</span>
+                  <span className="px-3 py-1 bg-soft-pink/20 text-muted-pink rounded-full text-xs font-medium border border-soft-pink/40">Technology 2</span>
+                </div>
+                <a href="#" className="text-muted-pink hover:text-muted-pink/80 hover:underline text-sm font-medium transition-colors">View Project →</a>
+              </div>
+
+              {/* Project 3 */}
+              <div className="border border-light-gray rounded-lg p-6 hover:shadow-lg hover:shadow-soft-pink/10 transition-all duration-300 bg-light-gray/50 hover:border-soft-pink/30">
+                <h4 className="text-lg font-semibold mb-2 text-black">Project 3</h4>
+                <p className="text-gray mb-4 text-sm">
+                  Description of your third project goes here. Add details about what you built, technologies used, and impact.
+                </p>
+                <div className="flex flex-wrap gap-2 mb-4">
+                  <span className="px-3 py-1 bg-soft-pink/20 text-muted-pink rounded-full text-xs font-medium border border-soft-pink/40">Technology 1</span>
+                  <span className="px-3 py-1 bg-soft-pink/20 text-muted-pink rounded-full text-xs font-medium border border-soft-pink/40">Technology 2</span>
+                </div>
+                <a href="#" className="text-muted-pink hover:text-muted-pink/80 hover:underline text-sm font-medium transition-colors">View Project →</a>
+              </div>
             </div>
 
+            {/* Photo Column - Right Side */}
+            <div className="md:w-1/2 flex justify-center items-start">
+              <Image
+                src="/riddhiphoto.jpg"
+                alt="Profile picture"
+                width={400}
+                height={400}
+                className="shadow-lg hover:scale-105 transition-transform duration-300"
+                priority
+              />
+            </div>
           </div>
         </section>
       </main>
