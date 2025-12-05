@@ -46,7 +46,10 @@ export default function Home() {
                   <span className="px-3 py-1 bg-soft-pink/20 text-muted-pink rounded-full text-xs font-medium border border-soft-pink/40">Python</span>
                   <span className="px-3 py-1 bg-soft-pink/20 text-muted-pink rounded-full text-xs font-medium border border-soft-pink/40">Git</span>
                 </div>
-                <a href="/gsoc-project" className="text-muted-pink hover:text-muted-pink/80 hover:underline text-sm font-medium transition-colors">View Project →</a>
+                <div className="flex gap-4">
+                  <a href="/gsoc-project" className="text-muted-pink hover:text-muted-pink/80 hover:underline text-sm font-medium transition-colors">View Project →</a>
+                  <a href="https://github.com/yourusername/gsoc-project" target="_blank" rel="noopener noreferrer" className="text-muted-pink hover:text-muted-pink/80 hover:underline text-sm font-medium transition-colors">GitHub →</a>
+                </div>
               </div>
 
               {/* Project 2 */}
@@ -55,21 +58,18 @@ export default function Home() {
                 <p className="text-gray mb-4 text-sm">
                   A real-time pair-programming web application using FastAPI with WebSocket synchronization for collaborative code editing, where multiple users can see changes instantly. The application features a modular architecture with separate backend and frontend files.
                 </p>
-                <div className="mb-4 space-y-2">
-                  <div className="flex flex-wrap items-center gap-2">
-                    <span className="text-xs font-semibold text-black">Frontend:</span>
-                    <span className="px-3 py-1 bg-soft-pink/20 text-muted-pink rounded-full text-xs font-medium border border-soft-pink/40">HTML</span>
-                    <span className="px-3 py-1 bg-soft-pink/20 text-muted-pink rounded-full text-xs font-medium border border-soft-pink/40">CSS</span>
-                    <span className="px-3 py-1 bg-soft-pink/20 text-muted-pink rounded-full text-xs font-medium border border-soft-pink/40">JavaScript</span>
-                  </div>
-                  <div className="flex flex-wrap items-center gap-2">
-                    <span className="text-xs font-semibold text-black">Backend:</span>
-                    <span className="px-3 py-1 bg-soft-pink/20 text-muted-pink rounded-full text-xs font-medium border border-soft-pink/40">FastAPI</span>
-                    <span className="px-3 py-1 bg-soft-pink/20 text-muted-pink rounded-full text-xs font-medium border border-soft-pink/40">WebSocket</span>
-                    <span className="px-3 py-1 bg-soft-pink/20 text-muted-pink rounded-full text-xs font-medium border border-soft-pink/40">Python</span>
-                  </div>
+                <div className="flex flex-wrap gap-2 mb-4">
+                  <span className="px-3 py-1 bg-soft-pink/20 text-muted-pink rounded-full text-xs font-medium border border-soft-pink/40">HTML</span>
+                  <span className="px-3 py-1 bg-soft-pink/20 text-muted-pink rounded-full text-xs font-medium border border-soft-pink/40">CSS</span>
+                  <span className="px-3 py-1 bg-soft-pink/20 text-muted-pink rounded-full text-xs font-medium border border-soft-pink/40">JavaScript</span>
+                  <span className="px-3 py-1 bg-soft-pink/20 text-muted-pink rounded-full text-xs font-medium border border-soft-pink/40">FastAPI</span>
+                  <span className="px-3 py-1 bg-soft-pink/20 text-muted-pink rounded-full text-xs font-medium border border-soft-pink/40">WebSocket</span>
+                  <span className="px-3 py-1 bg-soft-pink/20 text-muted-pink rounded-full text-xs font-medium border border-soft-pink/40">Python</span>
                 </div>
-                <a href="#" className="text-muted-pink hover:text-muted-pink/80 hover:underline text-sm font-medium transition-colors">View Project →</a>
+                <div className="flex gap-4">
+                  <a href="#" className="text-muted-pink hover:text-muted-pink/80 hover:underline text-sm font-medium transition-colors">View Project →</a>
+                  <a href="https://github.com/yourusername/pair-programming" target="_blank" rel="noopener noreferrer" className="text-muted-pink hover:text-muted-pink/80 hover:underline text-sm font-medium transition-colors">GitHub →</a>
+                </div>
               </div>
 
               {/* Project 3 */}
@@ -78,19 +78,16 @@ export default function Home() {
                 <p className="text-gray mb-4 text-sm">
                   Description of your third project goes here. Add details about what you built, technologies used, and impact.
                 </p>
-                <div className="mb-4 space-y-2">
-                  <div className="flex flex-wrap items-center gap-2">
-                    <span className="text-xs font-semibold text-black">Frontend:</span>
-                    <span className="px-3 py-1 bg-soft-pink/20 text-muted-pink rounded-full text-xs font-medium border border-soft-pink/40">Technology 1</span>
-                    <span className="px-3 py-1 bg-soft-pink/20 text-muted-pink rounded-full text-xs font-medium border border-soft-pink/40">Technology 2</span>
-                  </div>
-                  <div className="flex flex-wrap items-center gap-2">
-                    <span className="text-xs font-semibold text-black">Backend:</span>
-                    <span className="px-3 py-1 bg-soft-pink/20 text-muted-pink rounded-full text-xs font-medium border border-soft-pink/40">Technology 3</span>
-                    <span className="px-3 py-1 bg-soft-pink/20 text-muted-pink rounded-full text-xs font-medium border border-soft-pink/40">Technology 4</span>
-                  </div>
+                <div className="flex flex-wrap gap-2 mb-4">
+                  <span className="px-3 py-1 bg-soft-pink/20 text-muted-pink rounded-full text-xs font-medium border border-soft-pink/40">Technology 1</span>
+                  <span className="px-3 py-1 bg-soft-pink/20 text-muted-pink rounded-full text-xs font-medium border border-soft-pink/40">Technology 2</span>
+                  <span className="px-3 py-1 bg-soft-pink/20 text-muted-pink rounded-full text-xs font-medium border border-soft-pink/40">Technology 3</span>
+                  <span className="px-3 py-1 bg-soft-pink/20 text-muted-pink rounded-full text-xs font-medium border border-soft-pink/40">Technology 4</span>
                 </div>
-                <a href="#" className="text-muted-pink hover:text-muted-pink/80 hover:underline text-sm font-medium transition-colors">View Project →</a>
+                <div className="flex gap-4">
+                  <a href="#" className="text-muted-pink hover:text-muted-pink/80 hover:underline text-sm font-medium transition-colors">View Project →</a>
+                  <a href="https://github.com/yourusername/project3" target="_blank" rel="noopener noreferrer" className="text-muted-pink hover:text-muted-pink/80 hover:underline text-sm font-medium transition-colors">GitHub →</a>
+                </div>
               </div>
             </div>
 
