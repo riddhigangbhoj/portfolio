@@ -10,9 +10,6 @@ const workSans = Work_Sans({
 export const metadata = {
   title: "Portfolio",
   description: "Riddhi Gangbhoj's Portfolio",
-  icons: {
-    icon: '/flower.png',
-  },
 };
 
 export default function RootLayout({ children }) {
