@@ -14,7 +14,7 @@ export default function Home() {
             {["Home", "About", "Projects", "Resume"].map((item, index) => (
               <a
                 key={item}
-                href={item === "Home" ? "#" : item === "Resume" ? "/resume.pdf" : `#${item.toLowerCase()}`}
+                href={item === "Home" ? "#" : item === "Resume" ? "/resume" : `#${item.toLowerCase()}`}
                 className="hover:text-muted-pink transition-colors relative group animate-slideDown text-sm text-black"
                 style={{ animationDelay: `${index * 100}ms` }}
               >
