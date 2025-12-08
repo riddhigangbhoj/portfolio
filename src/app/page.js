@@ -47,16 +47,12 @@ export default function Home() {
                   Built an automated regression data comparison system for TARDIS that fetches commits, creates isolated conda environments, runs pytest suites, and generates visual comparison matrices to track how HDF files change across commits.
                 </p>
                 <div className="flex flex-wrap gap-2 min-h-[2rem]">
-                  <span className="px-3 py-1 bg-soft-pink/20 text-muted-pink rounded-full text-xs font-medium border border-soft-pink/40">Python (automation, testing, data processing)</span>
-                  <span className="px-3 py-1 bg-soft-pink/20 text-muted-pink rounded-full text-xs font-medium border border-soft-pink/40">HDF5 file handling & comparison</span>
-                  <span className="px-3 py-1 bg-soft-pink/20 text-muted-pink rounded-full text-xs font-medium border border-soft-pink/40">Git version control & Git LFS</span>
-                  <span className="px-3 py-1 bg-soft-pink/20 text-muted-pink rounded-full text-xs font-medium border border-soft-pink/40">Pytest & regression testing frameworks</span>
-                  <span className="px-3 py-1 bg-soft-pink/20 text-muted-pink rounded-full text-xs font-medium border border-soft-pink/40">Conda environment management & isolation</span>
-                  <span className="px-3 py-1 bg-soft-pink/20 text-muted-pink rounded-full text-xs font-medium border border-soft-pink/40">CI/CD workflows</span>
-                  <span className="px-3 py-1 bg-soft-pink/20 text-muted-pink rounded-full text-xs font-medium border border-soft-pink/40">Git workflow automation</span>
-                  <span className="px-3 py-1 bg-soft-pink/20 text-muted-pink rounded-full text-xs font-medium border border-soft-pink/40">Subprocess management</span>
-                  <span className="px-3 py-1 bg-soft-pink/20 text-muted-pink rounded-full text-xs font-medium border border-soft-pink/40">Data structures (Pandas/NumPy)</span>
-                  <span className="px-3 py-1 bg-soft-pink/20 text-muted-pink rounded-full text-xs font-medium border border-soft-pink/40">Jupyter notebooks</span>
+                  <span className="px-3 py-1 bg-soft-pink/20 text-muted-pink rounded-full text-xs font-medium border border-soft-pink/40">Python</span>
+                  <span className="px-3 py-1 bg-soft-pink/20 text-muted-pink rounded-full text-xs font-medium border border-soft-pink/40">HDF5</span>
+                  <span className="px-3 py-1 bg-soft-pink/20 text-muted-pink rounded-full text-xs font-medium border border-soft-pink/40">Git/Git LFS</span>
+                  <span className="px-3 py-1 bg-soft-pink/20 text-muted-pink rounded-full text-xs font-medium border border-soft-pink/40">Pytest</span>
+                  <span className="px-3 py-1 bg-soft-pink/20 text-muted-pink rounded-full text-xs font-medium border border-soft-pink/40">CI/CD</span>
+                  <span className="px-3 py-1 bg-soft-pink/20 text-muted-pink rounded-full text-xs font-medium border border-soft-pink/40">Pandas/NumPy</span>
                 </div>
               </div>
 
@@ -72,12 +68,11 @@ export default function Home() {
                   A real-time pair-programming web application using FastAPI with WebSocket synchronization for collaborative code editing, where multiple users can see changes instantly. The application features a modular architecture with separate backend and frontend files.
                 </p>
                 <div className="flex flex-wrap gap-2 min-h-[2rem]">
-                  <span className="px-3 py-1 bg-soft-pink/20 text-muted-pink rounded-full text-xs font-medium border border-soft-pink/40">HTML</span>
-                  <span className="px-3 py-1 bg-soft-pink/20 text-muted-pink rounded-full text-xs font-medium border border-soft-pink/40">CSS</span>
-                  <span className="px-3 py-1 bg-soft-pink/20 text-muted-pink rounded-full text-xs font-medium border border-soft-pink/40">JavaScript</span>
-                  <span className="px-3 py-1 bg-soft-pink/20 text-muted-pink rounded-full text-xs font-medium border border-soft-pink/40">FastAPI</span>
-                  <span className="px-3 py-1 bg-soft-pink/20 text-muted-pink rounded-full text-xs font-medium border border-soft-pink/40">WebSocket</span>
-                  <span className="px-3 py-1 bg-soft-pink/20 text-muted-pink rounded-full text-xs font-medium border border-soft-pink/40">Python</span>
+                  <span className="px-3 py-1 bg-soft-pink/20 text-muted-pink rounded-full text-xs font-medium border border-soft-pink/40">Python + FastAPI</span>
+                  <span className="px-3 py-1 bg-soft-pink/20 text-muted-pink rounded-full text-xs font-medium border border-soft-pink/40">WebSocket (real-time collaboration)</span>
+                  <span className="px-3 py-1 bg-soft-pink/20 text-muted-pink rounded-full text-xs font-medium border border-soft-pink/40">React 18 + TypeScript</span>
+                  <span className="px-3 py-1 bg-soft-pink/20 text-muted-pink rounded-full text-xs font-medium border border-soft-pink/40">RESTful API design</span>
+                  <span className="px-3 py-1 bg-soft-pink/20 text-muted-pink rounded-full text-xs font-medium border border-soft-pink/40">Railway deployment</span>
                 </div>
               </div>
 
