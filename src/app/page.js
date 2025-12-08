@@ -83,15 +83,16 @@ export default function Home() {
                   <span className="text-gray-300">|</span>
                   <a href="https://github.com/yourusername/project3" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-gray-600 font-medium transition-colors">GitHub</a>
                 </div>
-                <h4 className="text-lg font-semibold mb-2 text-black">Project 3</h4>
+                <h4 className="text-lg font-semibold mb-2 text-black">Paper Swipe</h4>
                 <p className="text-gray mb-4 text-sm">
-                  Description of your third project goes here. Add details about what you built, technologies used, and impact.
+                  A Tinder-style web app for discovering and saving academic research papers from arXiv through swipe gestures.
                 </p>
                 <div className="flex flex-wrap gap-2 min-h-[2rem]">
-                  <span className="px-3 py-1 bg-soft-pink/20 text-muted-pink rounded-full text-xs font-medium border border-soft-pink/40">Technology 1</span>
-                  <span className="px-3 py-1 bg-soft-pink/20 text-muted-pink rounded-full text-xs font-medium border border-soft-pink/40">Technology 2</span>
-                  <span className="px-3 py-1 bg-soft-pink/20 text-muted-pink rounded-full text-xs font-medium border border-soft-pink/40">Technology 3</span>
-                  <span className="px-3 py-1 bg-soft-pink/20 text-muted-pink rounded-full text-xs font-medium border border-soft-pink/40">Technology 4</span>
+                  <span className="px-3 py-1 bg-soft-pink/20 text-muted-pink rounded-full text-xs font-medium border border-soft-pink/40">React</span>
+                  <span className="px-3 py-1 bg-soft-pink/20 text-muted-pink rounded-full text-xs font-medium border border-soft-pink/40">Tailwind CSS</span>
+                  <span className="px-3 py-1 bg-soft-pink/20 text-muted-pink rounded-full text-xs font-medium border border-soft-pink/40">FastAPI</span>
+                  <span className="px-3 py-1 bg-soft-pink/20 text-muted-pink rounded-full text-xs font-medium border border-soft-pink/40">arXiv API</span>
+                  <span className="px-3 py-1 bg-soft-pink/20 text-muted-pink rounded-full text-xs font-medium border border-soft-pink/40">Supabase</span>
                 </div>
               </div>
             </div>
