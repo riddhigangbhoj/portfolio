@@ -3,7 +3,7 @@ export default function Resume() {
     <div className="min-h-screen bg-white">
       {/* Navigation Bar */}
       <nav className="fixed top-0 w-full bg-white/95 backdrop-blur-sm shadow-sm border-b border-light-gray p-4 z-50">
-        <div className="max-w-full mx-auto px-8 flex justify-between items-center">
+        <div className="max-w-6xl mx-auto flex justify-between items-center">
           <h1 className="text-lg font-semibold text-black animate-fadeIn">
             Riddhi Gangbhoj
           </h1>
@@ -25,8 +25,8 @@ export default function Resume() {
       </nav>
 
       {/* Resume Content */}
-      <main className="pt-24 pb-20 px-8">
-        <article className="max-w-full mx-auto">
+      <main className="pt-24 pb-20 px-4">
+        <article className="max-w-4xl mx-auto">
           {/* Header */}
           <header className="mb-12 text-center">
             <h1 className="text-4xl font-bold text-black mb-4">Riddhi Gangbhoj</h1>
