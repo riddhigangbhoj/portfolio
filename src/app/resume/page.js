@@ -41,26 +41,6 @@ export default function Resume() {
             </div>
           </header>
 
-          {/* Education Section */}
-          <section className="mb-12">
-            <h2 className="text-2xl font-semibold text-black mb-6 pb-2 border-b-2 border-soft-pink">Education</h2>
-            <div className="space-y-4">
-              <div>
-                <div className="flex justify-between items-start mb-2">
-                  <div>
-                    <h3 className="text-xl font-semibold text-black">Shri Ramdeobaba College of Engineering and Management</h3>
-                    <p className="text-gray-600">Bachelor of Engineering (BE) Electronics and Communication Engineering</p>
-                  </div>
-                  <span className="text-sm text-gray-500 whitespace-nowrap ml-4">Nagpur, Maharashtra</span>
-                </div>
-                <div className="flex justify-between items-center">
-                  <p className="text-sm text-gray-600">GPA: 7.4/10.0</p>
-                  <p className="text-sm text-gray-500">Jul 2019 - Jun 2023</p>
-                </div>
-              </div>
-            </div>
-          </section>
-
           {/* Work Experience Section */}
           <section className="mb-12">
             <h2 className="text-2xl font-semibold text-black mb-6 pb-2 border-b-2 border-soft-pink">Work Experience</h2>
@@ -106,6 +86,26 @@ export default function Resume() {
             </div>
           </section>
 
+          {/* Education Section */}
+          <section className="mb-12">
+            <h2 className="text-2xl font-semibold text-black mb-6 pb-2 border-b-2 border-soft-pink">Education</h2>
+            <div className="space-y-4">
+              <div>
+                <div className="flex justify-between items-start mb-2">
+                  <div>
+                    <h3 className="text-xl font-semibold text-black">Shri Ramdeobaba College of Engineering and Management</h3>
+                    <p className="text-gray-600">Bachelor of Engineering (BE) Electronics and Communication Engineering</p>
+                  </div>
+                  <span className="text-sm text-gray-500 whitespace-nowrap ml-4">Nagpur, Maharashtra</span>
+                </div>
+                <div className="flex justify-between items-center">
+                  <p className="text-sm text-gray-600">GPA: 7.4/10.0</p>
+                  <p className="text-sm text-gray-500">Jul 2019 - Jun 2023</p>
+                </div>
+              </div>
+            </div>
+          </section>
+
           {/* Technical Skills Section */}
           <section className="mb-12">
             <h2 className="text-2xl font-semibold text-black mb-6 pb-2 border-b-2 border-soft-pink">Technical Skills</h2>
@@ -126,6 +126,34 @@ export default function Resume() {
             <h2 className="text-2xl font-semibold text-black mb-6 pb-2 border-b-2 border-soft-pink">Projects</h2>
 
             <div className="space-y-6">
+              {/* Pair Programming */}
+              <div className="bg-light-gray/30 rounded-lg p-6 hover:shadow-md transition-shadow">
+                <div className="flex justify-between items-start mb-2">
+                  <h3 className="text-lg font-semibold text-black">Pair Programming</h3>
+                  <div className="flex gap-3 text-sm">
+                    <a href="https://pairprogramming.riddhigangbhoj.com" target="_blank" rel="noopener noreferrer" className="text-muted-pink hover:underline">View Project</a>
+                    <span className="text-gray-400">|</span>
+                    <a href="https://github.com/riddhigangbhoj/PairProgramming" target="_blank" rel="noopener noreferrer" className="text-muted-pink hover:underline">GitHub</a>
+                  </div>
+                </div>
+                <p className="text-xs text-gray-600 mb-3">Python + FastAPI, WebSocket (real-time collaboration), React 18 + TypeScript, RESTful API design, Railway deployment</p>
+                <p className="text-sm text-gray-700 leading-relaxed">A real-time pair-programming web application using FastAPI with WebSocket synchronization for collaborative code editing, where multiple users can see changes instantly. The application features a modular architecture with separate backend and frontend files.</p>
+              </div>
+
+              {/* Paper Swipe */}
+              <div className="bg-light-gray/30 rounded-lg p-6 hover:shadow-md transition-shadow">
+                <div className="flex justify-between items-start mb-2">
+                  <h3 className="text-lg font-semibold text-black">Paper Swipe</h3>
+                  <div className="flex gap-3 text-sm">
+                    <a href="https://paperswipe.riddhigangbhoj.com" target="_blank" rel="noopener noreferrer" className="text-muted-pink hover:underline">View Project</a>
+                    <span className="text-gray-400">|</span>
+                    <a href="https://github.com/riddhigangbhoj/PaperSwipe" target="_blank" rel="noopener noreferrer" className="text-muted-pink hover:underline">GitHub</a>
+                  </div>
+                </div>
+                <p className="text-xs text-gray-600 mb-3">React, Tailwind CSS, FastAPI, arXiv API, Supabase</p>
+                <p className="text-sm text-gray-700 leading-relaxed">A Tinder-style web app for discovering and saving academic research papers from arXiv through swipe gestures.</p>
+              </div>
+
               {/* Portfolio Website */}
               <div className="bg-light-gray/30 rounded-lg p-6 hover:shadow-md transition-shadow">
                 <div className="flex justify-between items-start mb-2">
@@ -134,30 +162,6 @@ export default function Resume() {
                 </div>
                 <p className="text-xs text-gray-600 mb-3">Next.js, React, Tailwind CSS, GitHub Actions</p>
                 <p className="text-sm text-gray-700 leading-relaxed">Developed and deployed a responsive personal portfolio website using Next.js 15 and React 19. Implemented mobile-first design with Tailwind CSS, dark mode support. Configured automated CI/CD pipeline with GitHub Actions for continuous deployment to GitHub Pages.</p>
-              </div>
-
-              {/* Paper Swipe */}
-              <div className="bg-light-gray/30 rounded-lg p-6 hover:shadow-md transition-shadow">
-                <h3 className="text-lg font-semibold text-black mb-2">Paper Swipe</h3>
-                <p className="text-xs text-gray-600 mb-3">Python, FastAPI, PostgreSQL, REST APIs, Docker, Git, API Integration, Asynchronous Programming, Database Design</p>
-                <p className="text-sm text-gray-700 leading-relaxed">Built a research paper recommendation platform using FastAPI and PostgreSQL that aggregates 200M+ papers from ArXiv and Semantic Scholar APIs. Implemented swipe-based UI for paper discovery, designed relational database schema for user interactions, and containerized the application with Docker for streamlined deployment.</p>
-              </div>
-            </div>
-          </section>
-
-          {/* Achievements Section */}
-          <section className="mb-12">
-            <h2 className="text-2xl font-semibold text-black mb-6 pb-2 border-b-2 border-soft-pink">Achievements</h2>
-            <div className="space-y-4">
-              <div>
-                <div className="flex justify-between items-start mb-2">
-                  <h3 className="text-lg font-semibold text-black">Google Summer of Code 2025 Participant</h3>
-                  <div className="text-right text-sm text-gray-500 whitespace-nowrap ml-4">
-                    <p>Google</p>
-                    <p>Jun 2025</p>
-                  </div>
-                </div>
-                <p className="text-sm text-gray-700 leading-relaxed">Selected as one of the participants in Google Summer of Code 2025, working on open-source scientific computing project TARDIS</p>
               </div>
             </div>
           </section>

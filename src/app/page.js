@@ -79,9 +79,9 @@ export default function Home() {
               {/* Project 3 */}
               <div className="border border-light-gray rounded-lg p-6 hover:shadow-lg hover:shadow-soft-pink/10 transition-all duration-300 bg-light-gray/50 hover:border-soft-pink/30">
                 <div className="flex items-center gap-3 text-sm mb-4">
-                  <a href="#" className="text-gray-400 hover:text-gray-600 font-medium transition-colors">View Project</a>
+                  <a href="https://paperswipe.riddhigangbhoj.com" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-gray-600 font-medium transition-colors">View Project</a>
                   <span className="text-gray-300">|</span>
-                  <a href="https://github.com/yourusername/project3" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-gray-600 font-medium transition-colors">GitHub</a>
+                  <a href="https://github.com/riddhigangbhoj/PaperSwipe" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-gray-600 font-medium transition-colors">GitHub</a>
                 </div>
                 <h4 className="text-lg font-semibold mb-2 text-black">Paper Swipe</h4>
                 <p className="text-gray mb-4 text-sm">
