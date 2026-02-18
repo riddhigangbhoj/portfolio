@@ -129,9 +129,9 @@ export default function Home() {
             {/* PM Project 1 */}
             <div className="border border-light-gray rounded-lg p-6 hover:shadow-lg hover:shadow-soft-pink/10 transition-all duration-300 bg-light-gray/50 hover:border-soft-pink/30 flex flex-col">
               <div className="flex items-center gap-3 text-sm mb-4">
-                <a href="#" className="text-gray-400 hover:text-gray-600 font-medium transition-colors">View Project</a>
+                <a href="/NL_WhatsApp.pdf" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-gray-600 font-medium transition-colors">View Project</a>
               </div>
-              <h4 className="text-lg font-semibold mb-2 text-black">Project 1</h4>
+              <h4 className="text-lg font-semibold mb-2 text-black">Updating Search in WhatsApp</h4>
               <p className="text-gray text-sm flex-1">
                 Coming soon.
               </p>
