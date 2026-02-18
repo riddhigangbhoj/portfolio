@@ -35,9 +35,7 @@ export default function Resume() {
               <span>•</span>
               <a href="mailto:riddhigangbhoj76@gmail.com" className="text-muted-pink hover:underline">riddhigangbhoj76@gmail.com</a>
               <span>•</span>
-              <span>+91 8806255882</span>
-              <span>•</span>
-              <a href="https://riddhigangbhoj.com/" target="_blank" rel="noopener noreferrer" className="text-muted-pink hover:underline">riddhigangbhoj.com</a>
+              <a href="https://www.linkedin.com/in/riddhi-gangbhoj-188752246" target="_blank" rel="noopener noreferrer" className="text-muted-pink hover:underline">linkedin.com/in/riddhi-gangbhoj-188752246</a>
             </div>
           </header>
 

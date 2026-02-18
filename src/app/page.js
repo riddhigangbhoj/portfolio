@@ -56,7 +56,28 @@ export default function Home() {
                 </div>
               </div>
 
-              {/* Project 2 */}
+              {/* Project 2 - Themis */}
+              <div className="border border-light-gray rounded-lg p-6 hover:shadow-lg hover:shadow-soft-pink/10 transition-all duration-300 bg-light-gray/50 hover:border-soft-pink/30">
+                <div className="flex items-center gap-3 text-sm mb-4">
+                  <a href="#" className="text-gray-400 hover:text-gray-600 font-medium transition-colors">View Project</a>
+                  <span className="text-gray-300">|</span>
+                  <a href="https://github.com/riddhigangbhoj/Themis" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-gray-600 font-medium transition-colors">GitHub</a>
+                </div>
+                <h4 className="text-lg font-semibold mb-2 text-black">Themis</h4>
+                <p className="text-gray mb-4 text-sm">
+                  An AI legal research platform that uses multi-agent orchestration to analyze 380,000+ Indian court judgments. A Planner Agent coordinates parallel Base Agents equipped with semantic search, SQL queries, PDF extraction, and sandboxed file access to retrieve evidence-grounded case precedents, judge patterns, and outcome predictions.
+                </p>
+                <div className="flex flex-wrap gap-2 min-h-[2rem]">
+                  <span className="px-3 py-1 bg-soft-pink/20 text-muted-pink rounded-full text-xs font-medium border border-soft-pink/40">Python</span>
+                  <span className="px-3 py-1 bg-soft-pink/20 text-muted-pink rounded-full text-xs font-medium border border-soft-pink/40">ChromaDB</span>
+                  <span className="px-3 py-1 bg-soft-pink/20 text-muted-pink rounded-full text-xs font-medium border border-soft-pink/40">DuckDB</span>
+                  <span className="px-3 py-1 bg-soft-pink/20 text-muted-pink rounded-full text-xs font-medium border border-soft-pink/40">AWS S3</span>
+                  <span className="px-3 py-1 bg-soft-pink/20 text-muted-pink rounded-full text-xs font-medium border border-soft-pink/40">PyMuPDF</span>
+                  <span className="px-3 py-1 bg-soft-pink/20 text-muted-pink rounded-full text-xs font-medium border border-soft-pink/40">Claude Sonnet 4</span>
+                </div>
+              </div>
+
+              {/* Project 3 */}
               <div className="border border-light-gray rounded-lg p-6 hover:shadow-lg hover:shadow-soft-pink/10 transition-all duration-300 bg-light-gray/50 hover:border-soft-pink/30">
                 <div className="flex items-center gap-3 text-sm mb-4">
                   <a href="https://pairprogramming.riddhigangbhoj.com" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-gray-600 font-medium transition-colors">View Project</a>
