@@ -9,7 +9,7 @@ export default function Home() {
           <h1 className="text-lg font-semibold text-black animate-fadeIn">
             Riddhi Gangbhoj
           </h1>
-          
+
           <div className="flex gap-6">
             {["Home", "About", "Projects", "Resume"].map((item, index) => (
               <a
@@ -32,103 +32,134 @@ export default function Home() {
           <h3 className="text-2xl font-semibold mb-8 text-black">
             Projects
           </h3>
-          <div className="flex flex-col md:flex-row gap-8">
-            {/* Projects Column - Left Side */}
-            <div className="md:w-1/2 space-y-6">
-              {/* Project 1 */}
-              <div className="border border-light-gray rounded-lg p-6 hover:shadow-lg hover:shadow-soft-pink/10 transition-all duration-300 bg-light-gray/50 hover:border-soft-pink/30">
-                <div className="flex items-center gap-3 text-sm mb-4">
-                  <a href="/gsoc-project" className="text-gray-400 hover:text-gray-600 font-medium transition-colors">View Project</a>
-                  <span className="text-gray-300">|</span>
-                  <a href="https://github.com/tardis-sn/tardisbase/pull/21" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-gray-600 font-medium transition-colors">GitHub</a>
-                </div>
-                <h4 className="text-lg font-semibold mb-2 text-black">Google Summer of Code Project</h4>
-                <p className="text-gray mb-4 text-sm">
-                  Built an automated regression data comparison system for TARDIS that fetches commits, creates isolated conda environments, runs pytest suites, and generates visual comparison matrices to track how HDF files change across commits.
-                </p>
-                <div className="flex flex-wrap gap-2 min-h-[2rem]">
-                  <span className="px-3 py-1 bg-soft-pink/20 text-muted-pink rounded-full text-xs font-medium border border-soft-pink/40">Python</span>
-                  <span className="px-3 py-1 bg-soft-pink/20 text-muted-pink rounded-full text-xs font-medium border border-soft-pink/40">HDF5</span>
-                  <span className="px-3 py-1 bg-soft-pink/20 text-muted-pink rounded-full text-xs font-medium border border-soft-pink/40">Git/Git LFS</span>
-                  <span className="px-3 py-1 bg-soft-pink/20 text-muted-pink rounded-full text-xs font-medium border border-soft-pink/40">Pytest</span>
-                  <span className="px-3 py-1 bg-soft-pink/20 text-muted-pink rounded-full text-xs font-medium border border-soft-pink/40">CI/CD</span>
-                  <span className="px-3 py-1 bg-soft-pink/20 text-muted-pink rounded-full text-xs font-medium border border-soft-pink/40">Pandas/NumPy</span>
-                </div>
-              </div>
 
-              {/* Project 2 - Themis */}
-              <div className="border border-light-gray rounded-lg p-6 hover:shadow-lg hover:shadow-soft-pink/10 transition-all duration-300 bg-light-gray/50 hover:border-soft-pink/30">
-                <div className="flex items-center gap-3 text-sm mb-4">
-                  <a href="#" className="text-gray-400 hover:text-gray-600 font-medium transition-colors">View Project</a>
-                  <span className="text-gray-300">|</span>
-                  <a href="https://github.com/riddhigangbhoj/Themis" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-gray-600 font-medium transition-colors">GitHub</a>
-                </div>
-                <h4 className="text-lg font-semibold mb-2 text-black">Themis</h4>
-                <p className="text-gray mb-4 text-sm">
-                  An AI legal research platform that uses multi-agent orchestration to analyze 380,000+ Indian court judgments. A Planner Agent coordinates parallel Base Agents equipped with semantic search, SQL queries, PDF extraction, and sandboxed file access to retrieve evidence-grounded case precedents, judge patterns, and outcome predictions.
-                </p>
-                <div className="flex flex-wrap gap-2 min-h-[2rem]">
-                  <span className="px-3 py-1 bg-soft-pink/20 text-muted-pink rounded-full text-xs font-medium border border-soft-pink/40">Python</span>
-                  <span className="px-3 py-1 bg-soft-pink/20 text-muted-pink rounded-full text-xs font-medium border border-soft-pink/40">ChromaDB</span>
-                  <span className="px-3 py-1 bg-soft-pink/20 text-muted-pink rounded-full text-xs font-medium border border-soft-pink/40">DuckDB</span>
-                  <span className="px-3 py-1 bg-soft-pink/20 text-muted-pink rounded-full text-xs font-medium border border-soft-pink/40">AWS S3</span>
-                  <span className="px-3 py-1 bg-soft-pink/20 text-muted-pink rounded-full text-xs font-medium border border-soft-pink/40">PyMuPDF</span>
-                  <span className="px-3 py-1 bg-soft-pink/20 text-muted-pink rounded-full text-xs font-medium border border-soft-pink/40">Claude Sonnet 4</span>
-                </div>
-              </div>
+          {/* Tech Projects - 4 in a single row */}
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 mb-10">
 
-              {/* Project 3 */}
-              <div className="border border-light-gray rounded-lg p-6 hover:shadow-lg hover:shadow-soft-pink/10 transition-all duration-300 bg-light-gray/50 hover:border-soft-pink/30">
-                <div className="flex items-center gap-3 text-sm mb-4">
-                  <a href="https://pairprogramming.riddhigangbhoj.com" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-gray-600 font-medium transition-colors">View Project</a>
-                  <span className="text-gray-300">|</span>
-                  <a href="https://github.com/riddhigangbhoj/PairProgramming" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-gray-600 font-medium transition-colors">GitHub</a>
-                </div>
-                <h4 className="text-lg font-semibold mb-2 text-black">Pair Programming</h4>
-                <p className="text-gray mb-4 text-sm">
-                  A real-time pair-programming web application using FastAPI with WebSocket synchronization for collaborative code editing, where multiple users can see changes instantly. The application features a modular architecture with separate backend and frontend files.
-                </p>
-                <div className="flex flex-wrap gap-2 min-h-[2rem]">
-                  <span className="px-3 py-1 bg-soft-pink/20 text-muted-pink rounded-full text-xs font-medium border border-soft-pink/40">Python + FastAPI</span>
-                  <span className="px-3 py-1 bg-soft-pink/20 text-muted-pink rounded-full text-xs font-medium border border-soft-pink/40">WebSocket (real-time collaboration)</span>
-                  <span className="px-3 py-1 bg-soft-pink/20 text-muted-pink rounded-full text-xs font-medium border border-soft-pink/40">React 18 + TypeScript</span>
-                  <span className="px-3 py-1 bg-soft-pink/20 text-muted-pink rounded-full text-xs font-medium border border-soft-pink/40">RESTful API design</span>
-                  <span className="px-3 py-1 bg-soft-pink/20 text-muted-pink rounded-full text-xs font-medium border border-soft-pink/40">Railway deployment</span>
-                </div>
+            {/* GSoC */}
+            <div className="border border-light-gray rounded-lg p-6 hover:shadow-lg hover:shadow-soft-pink/10 transition-all duration-300 bg-light-gray/50 hover:border-soft-pink/30 flex flex-col">
+              <div className="flex items-center gap-3 text-sm mb-4">
+                <a href="/gsoc-project" className="text-gray-400 hover:text-gray-600 font-medium transition-colors">View Project</a>
+                <span className="text-gray-300">|</span>
+                <a href="https://github.com/tardis-sn/tardisbase/pull/21" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-gray-600 font-medium transition-colors">GitHub</a>
               </div>
-
-              {/* Project 3 */}
-              <div className="border border-light-gray rounded-lg p-6 hover:shadow-lg hover:shadow-soft-pink/10 transition-all duration-300 bg-light-gray/50 hover:border-soft-pink/30">
-                <div className="flex items-center gap-3 text-sm mb-4">
-                  <a href="https://paperswipe.riddhigangbhoj.com" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-gray-600 font-medium transition-colors">View Project</a>
-                  <span className="text-gray-300">|</span>
-                  <a href="https://github.com/riddhigangbhoj/PaperSwipe" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-gray-600 font-medium transition-colors">GitHub</a>
-                </div>
-                <h4 className="text-lg font-semibold mb-2 text-black">Paper Swipe</h4>
-                <p className="text-gray mb-4 text-sm">
-                  A Tinder-style web app for discovering and saving academic research papers from arXiv through swipe gestures.
-                </p>
-                <div className="flex flex-wrap gap-2 min-h-[2rem]">
-                  <span className="px-3 py-1 bg-soft-pink/20 text-muted-pink rounded-full text-xs font-medium border border-soft-pink/40">React</span>
-                  <span className="px-3 py-1 bg-soft-pink/20 text-muted-pink rounded-full text-xs font-medium border border-soft-pink/40">Tailwind CSS</span>
-                  <span className="px-3 py-1 bg-soft-pink/20 text-muted-pink rounded-full text-xs font-medium border border-soft-pink/40">FastAPI</span>
-                  <span className="px-3 py-1 bg-soft-pink/20 text-muted-pink rounded-full text-xs font-medium border border-soft-pink/40">arXiv API</span>
-                  <span className="px-3 py-1 bg-soft-pink/20 text-muted-pink rounded-full text-xs font-medium border border-soft-pink/40">Supabase</span>
-                </div>
+              <h4 className="text-lg font-semibold mb-2 text-black">Google Summer of Code Project</h4>
+              <p className="text-gray mb-4 text-sm flex-1">
+                Built an automated regression data comparison system for TARDIS that fetches commits, creates isolated conda environments, runs pytest suites, and generates visual comparison matrices to track how HDF files change across commits.
+              </p>
+              <div className="flex flex-wrap gap-2 min-h-[2rem]">
+                <span className="px-3 py-1 bg-soft-pink/20 text-muted-pink rounded-full text-xs font-medium border border-soft-pink/40">Python</span>
+                <span className="px-3 py-1 bg-soft-pink/20 text-muted-pink rounded-full text-xs font-medium border border-soft-pink/40">HDF5</span>
+                <span className="px-3 py-1 bg-soft-pink/20 text-muted-pink rounded-full text-xs font-medium border border-soft-pink/40">Git/Git LFS</span>
+                <span className="px-3 py-1 bg-soft-pink/20 text-muted-pink rounded-full text-xs font-medium border border-soft-pink/40">Pytest</span>
+                <span className="px-3 py-1 bg-soft-pink/20 text-muted-pink rounded-full text-xs font-medium border border-soft-pink/40">CI/CD</span>
+                <span className="px-3 py-1 bg-soft-pink/20 text-muted-pink rounded-full text-xs font-medium border border-soft-pink/40">Pandas/NumPy</span>
               </div>
             </div>
 
-            {/* Photo Column - Right Side */}
-            <div className="md:w-1/2 flex justify-center items-start">
-              <Image
-                src="/riddhiphoto.jpg"
-                alt="Profile picture"
-                width={400}
-                height={400}
-                className="shadow-lg hover:scale-105 transition-transform duration-300"
-                priority
-              />
+            {/* Themis */}
+            <div className="border border-light-gray rounded-lg p-6 hover:shadow-lg hover:shadow-soft-pink/10 transition-all duration-300 bg-light-gray/50 hover:border-soft-pink/30 flex flex-col">
+              <div className="flex items-center gap-3 text-sm mb-4">
+                <a href="#" className="text-gray-400 hover:text-gray-600 font-medium transition-colors">View Project</a>
+                <span className="text-gray-300">|</span>
+                <a href="https://github.com/riddhigangbhoj/Themis" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-gray-600 font-medium transition-colors">GitHub</a>
+              </div>
+              <h4 className="text-lg font-semibold mb-2 text-black">Themis</h4>
+              <p className="text-gray mb-4 text-sm flex-1">
+                An AI legal research platform that uses multi-agent orchestration to analyze 380,000+ Indian court judgments. A Planner Agent coordinates parallel Base Agents equipped with semantic search, SQL queries, PDF extraction, and sandboxed file access to retrieve evidence-grounded case precedents, judge patterns, and outcome predictions.
+              </p>
+              <div className="flex flex-wrap gap-2 min-h-[2rem]">
+                <span className="px-3 py-1 bg-soft-pink/20 text-muted-pink rounded-full text-xs font-medium border border-soft-pink/40">Python</span>
+                <span className="px-3 py-1 bg-soft-pink/20 text-muted-pink rounded-full text-xs font-medium border border-soft-pink/40">ChromaDB</span>
+                <span className="px-3 py-1 bg-soft-pink/20 text-muted-pink rounded-full text-xs font-medium border border-soft-pink/40">DuckDB</span>
+                <span className="px-3 py-1 bg-soft-pink/20 text-muted-pink rounded-full text-xs font-medium border border-soft-pink/40">AWS S3</span>
+                <span className="px-3 py-1 bg-soft-pink/20 text-muted-pink rounded-full text-xs font-medium border border-soft-pink/40">PyMuPDF</span>
+                <span className="px-3 py-1 bg-soft-pink/20 text-muted-pink rounded-full text-xs font-medium border border-soft-pink/40">Claude Sonnet 4</span>
+              </div>
             </div>
+
+            {/* Pair Programming */}
+            <div className="border border-light-gray rounded-lg p-6 hover:shadow-lg hover:shadow-soft-pink/10 transition-all duration-300 bg-light-gray/50 hover:border-soft-pink/30 flex flex-col">
+              <div className="flex items-center gap-3 text-sm mb-4">
+                <a href="https://pairprogramming.riddhigangbhoj.com" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-gray-600 font-medium transition-colors">View Project</a>
+                <span className="text-gray-300">|</span>
+                <a href="https://github.com/riddhigangbhoj/PairProgramming" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-gray-600 font-medium transition-colors">GitHub</a>
+              </div>
+              <h4 className="text-lg font-semibold mb-2 text-black">Pair Programming</h4>
+              <p className="text-gray mb-4 text-sm flex-1">
+                A real-time pair-programming web application using FastAPI with WebSocket synchronization for collaborative code editing, where multiple users can see changes instantly. The application features a modular architecture with separate backend and frontend files.
+              </p>
+              <div className="flex flex-wrap gap-2 min-h-[2rem]">
+                <span className="px-3 py-1 bg-soft-pink/20 text-muted-pink rounded-full text-xs font-medium border border-soft-pink/40">Python + FastAPI</span>
+                <span className="px-3 py-1 bg-soft-pink/20 text-muted-pink rounded-full text-xs font-medium border border-soft-pink/40">WebSocket</span>
+                <span className="px-3 py-1 bg-soft-pink/20 text-muted-pink rounded-full text-xs font-medium border border-soft-pink/40">React 18 + TypeScript</span>
+                <span className="px-3 py-1 bg-soft-pink/20 text-muted-pink rounded-full text-xs font-medium border border-soft-pink/40">RESTful API design</span>
+                <span className="px-3 py-1 bg-soft-pink/20 text-muted-pink rounded-full text-xs font-medium border border-soft-pink/40">Railway deployment</span>
+              </div>
+            </div>
+
+            {/* Paper Swipe */}
+            <div className="border border-light-gray rounded-lg p-6 hover:shadow-lg hover:shadow-soft-pink/10 transition-all duration-300 bg-light-gray/50 hover:border-soft-pink/30 flex flex-col">
+              <div className="flex items-center gap-3 text-sm mb-4">
+                <a href="https://paperswipe.riddhigangbhoj.com" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-gray-600 font-medium transition-colors">View Project</a>
+                <span className="text-gray-300">|</span>
+                <a href="https://github.com/riddhigangbhoj/PaperSwipe" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-gray-600 font-medium transition-colors">GitHub</a>
+              </div>
+              <h4 className="text-lg font-semibold mb-2 text-black">Paper Swipe</h4>
+              <p className="text-gray mb-4 text-sm flex-1">
+                A Tinder-style web app for discovering and saving academic research papers from arXiv through swipe gestures.
+              </p>
+              <div className="flex flex-wrap gap-2 min-h-[2rem]">
+                <span className="px-3 py-1 bg-soft-pink/20 text-muted-pink rounded-full text-xs font-medium border border-soft-pink/40">React</span>
+                <span className="px-3 py-1 bg-soft-pink/20 text-muted-pink rounded-full text-xs font-medium border border-soft-pink/40">Tailwind CSS</span>
+                <span className="px-3 py-1 bg-soft-pink/20 text-muted-pink rounded-full text-xs font-medium border border-soft-pink/40">FastAPI</span>
+                <span className="px-3 py-1 bg-soft-pink/20 text-muted-pink rounded-full text-xs font-medium border border-soft-pink/40">arXiv API</span>
+                <span className="px-3 py-1 bg-soft-pink/20 text-muted-pink rounded-full text-xs font-medium border border-soft-pink/40">Supabase</span>
+              </div>
+            </div>
+
+          </div>
+
+          {/* Product Management Projects */}
+          <h3 className="text-2xl font-semibold mb-8 text-black">
+            Product Management Projects
+          </h3>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-16">
+
+            {/* PM Project 1 */}
+            <div className="border border-light-gray rounded-lg p-6 hover:shadow-lg hover:shadow-soft-pink/10 transition-all duration-300 bg-light-gray/50 hover:border-soft-pink/30 flex flex-col">
+              <div className="flex items-center gap-3 text-sm mb-4">
+                <a href="#" className="text-gray-400 hover:text-gray-600 font-medium transition-colors">View Project</a>
+              </div>
+              <h4 className="text-lg font-semibold mb-2 text-black">Project 1</h4>
+              <p className="text-gray text-sm flex-1">
+                Coming soon.
+              </p>
+            </div>
+
+            {/* PM Project 2 */}
+            <div className="border border-light-gray rounded-lg p-6 hover:shadow-lg hover:shadow-soft-pink/10 transition-all duration-300 bg-light-gray/50 hover:border-soft-pink/30 flex flex-col">
+              <div className="flex items-center gap-3 text-sm mb-4">
+                <a href="#" className="text-gray-400 hover:text-gray-600 font-medium transition-colors">View Project</a>
+              </div>
+              <h4 className="text-lg font-semibold mb-2 text-black">Project 2</h4>
+              <p className="text-gray text-sm flex-1">
+                Coming soon.
+              </p>
+            </div>
+
+          </div>
+
+          {/* Photo - at the bottom */}
+          <div className="flex justify-center">
+            <Image
+              src="/riddhiphoto.jpg"
+              alt="Profile picture"
+              width={400}
+              height={400}
+              className="shadow-lg hover:scale-105 transition-transform duration-300"
+              priority
+            />
           </div>
         </section>
       </main>
