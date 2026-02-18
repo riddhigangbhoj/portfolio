@@ -33,8 +33,8 @@ export default function Home() {
             Projects
           </h3>
 
-          {/* Tech Projects - 4 in a single row */}
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 mb-10">
+          {/* Tech Projects - 2x2 grid */}
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 mb-10">
 
             {/* GSoC */}
             <div className="border border-light-gray rounded-lg p-6 hover:shadow-lg hover:shadow-soft-pink/10 transition-all duration-300 bg-light-gray/50 hover:border-soft-pink/30 flex flex-col">
@@ -150,13 +150,13 @@ export default function Home() {
 
           </div>
 
-          {/* Photo - at the bottom */}
-          <div className="flex justify-center">
+          {/* Photo - left aligned, reduced size */}
+          <div className="flex justify-start">
             <Image
               src="/riddhiphoto.jpg"
               alt="Profile picture"
-              width={400}
-              height={400}
+              width={200}
+              height={200}
               className="shadow-lg hover:scale-105 transition-transform duration-300"
               priority
             />
