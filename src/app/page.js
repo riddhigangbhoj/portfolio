@@ -126,15 +126,41 @@ export default function Home() {
           </h3>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-16">
 
-            {/* PM Project 1 */}
-            <div className="border border-light-gray rounded-lg p-6 hover:shadow-lg hover:shadow-soft-pink/10 transition-all duration-300 bg-light-gray/50 hover:border-soft-pink/30 flex flex-col">
-              <div className="flex items-center gap-3 text-sm mb-4">
-                <a href="/NL_WhatsApp.pdf" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-gray-600 font-medium transition-colors">View Project</a>
+            {/* PM Project 1 - Digital Wellbeing iOS */}
+            <div className="border border-light-gray rounded-lg overflow-hidden hover:shadow-lg hover:shadow-soft-pink/10 transition-all duration-300 bg-light-gray/50 hover:border-soft-pink/30 flex flex-col">
+              {/* PDF Preview */}
+              <div className="relative bg-gray-900 rounded-t-lg overflow-hidden">
+                <iframe
+                  src="/NL_IOS.pdf#toolbar=0&navpanes=0&scrollbar=0"
+                  className="w-full pointer-events-none"
+                  style={{ height: '360px' }}
+                  title="Digital Wellbeing for iOS - Project Deck Preview"
+                />
+                <div className="absolute bottom-0 left-0 right-0 h-16 bg-gradient-to-t from-black/60 to-transparent" />
+                <span className="absolute bottom-3 left-4 text-white/80 text-xs font-medium tracking-wide uppercase">
+                  Project Deck
+                </span>
               </div>
-              <h4 className="text-lg font-semibold mb-2 text-black">Updating Search in WhatsApp</h4>
-              <p className="text-gray text-sm flex-1">
-                Coming soon.
-              </p>
+              {/* Card Content */}
+              <div className="p-6 flex flex-col flex-1">
+                <h4 className="text-lg font-semibold mb-2 text-black">Digital Wellbeing for iOS</h4>
+                <p className="text-gray text-sm mb-5 flex-1">
+                  A product concept reimagining how iOS helps users build a healthier, more intentional relationship with their phones — moving beyond screen time numbers to meaningful behavioral insights.
+                </p>
+                <a
+                  href="/NL_IOS.pdf"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center justify-center gap-2 px-5 py-2.5 bg-black text-white text-sm font-medium rounded-lg hover:bg-dark-gray transition-colors duration-200 w-full"
+                >
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                    <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6" />
+                    <polyline points="15 3 21 3 21 9" />
+                    <line x1="10" y1="14" x2="21" y2="3" />
+                  </svg>
+                  View Project Deck
+                </a>
+              </div>
             </div>
 
             {/* PM Project 2 */}
